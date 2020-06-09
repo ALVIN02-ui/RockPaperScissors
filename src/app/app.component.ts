@@ -37,22 +37,22 @@ this.computerSelected=this.computerweapon[randomNumber]
     this.userSelected=user
     this.computerSelected=computer
     this.action="beats"
-    this.status="you win"
-this.clearfield()
+    this.status="you win oops my bad"
+this.clearfield( )
   }
   lose(user,computer){
      this.computerscore++
       this.userSelected=user
      this.computerSelected=computer
      this.action="lose to" 
-     this.status="you lose"
+     this.status="you lose SORRY"
      this.clearfield()
   }
   draw(user,computer){
     this.userSelected=user
     this.computerSelected=computer
     this.action="and"
-    this.status="you draw"
+    this.status="you draw BUT WHY"
    this.clearfield()
 
   }
